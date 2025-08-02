@@ -31,8 +31,17 @@ for (const char of "Shazib") {
     }
 */
 // This is a while loop that prints numbers from 5 to 9
+/*
 let i = 5;
 while (i < 10) {
     console.log(i);
     i++;
 }
+    */
+
+// This is a do-while loop that prints numbers from 5 to 9
+let i = 0;
+do {
+    console.log(i);
+    i++;
+} while (i < 10);   
