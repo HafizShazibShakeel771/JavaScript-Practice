@@ -50,12 +50,11 @@ func1(34);
 func1(66);
 func1(84);
 */
+ 
+//Function with a parameter
 
-/*// Function with a parameter
 const sayHello = name => {
     return "Hello, " + name + "!";
 }
 console.log(sayHello("Ali"));
-*/
-
-const square =  num => num * num;  
+console.log(sayHello("Sara"));
