@@ -31,4 +31,15 @@ let c = "Shazib";
 console.log(c.slice(0, 5)); // Slice the string from index 0 to 5
 console.log(c.slice(2, 5)); // Slice the string from index 2 to 5
 
+// Replace a part of the string
+let d = "Shazib";
+console.log(d.replace("Sh", "Ar")); // Replace "Sh" with "Ar"
 
+//concatenate two strings
+let e = "Usama";
+console.log(e.concat(" Talha")); // Concatenate with a space
+console.log(e.concat(d)); // Concatenate with another string
+console.log(e.concat(d, "Talha")); // Concatenate two strings
+// Split a string into an array
+
+console.log(b);
