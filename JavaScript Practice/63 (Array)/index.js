@@ -80,6 +80,7 @@ console.log(c); // Output: [1, 3, 6, 4, 2, 5]
 // slice() method
 let d = [1, 2, 3, 4, 5];
 console.log(d); // Output: [1, 2, 3, 4, 5];
+
 // Slicing the array
 let e = d.slice(1, 3); // Creates a new array with elements from index 1 to 2
 console.log(e); // Output: [2, 3]
