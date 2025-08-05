@@ -4,7 +4,6 @@ let a = prompt("Enter first number");
 let c = prompt("Enter operation");
 let b = prompt("Enter second number");
 
-
 let obj = {
     "+": "-",
     "-": "/",
