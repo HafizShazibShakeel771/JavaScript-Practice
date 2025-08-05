@@ -1,23 +1,27 @@
 let random = Math.random();
+console.log(random);
 let a = prompt("Enter first number");
-let b = prompt("Enter second number");
 let c = prompt("Enter operation");
+let b = prompt("Enter second number");
+
 
 let obj = {
-"+":"-",
-"-":"/",
-"*":"+",
-"/":"**",
+    "+": "-",
+    "-": "/",
+    "*": "+",
+    "/": "**",
+
 }
 
 if (random > 0.1) {
     //perform correct calculation
-    alert(`This is the correct calculation: ${eval$(`${a} ${c} ${b}`)}`);
+    console.log(`The result is ${a} ${c} ${b}`);
+    alert(`The result is ${eval(`${a} ${c} ${b}`)}`);
 
 }
 
 else {
     //perform incorrect calculation}
     c = obj[c];
-
+    alert(`The result is ${eval(`${a} ${c} ${b}`)}`);
 }
