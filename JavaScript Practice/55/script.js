@@ -31,6 +31,7 @@ console.log(a);
 // a1 = a1 + 1; // This line will cause an error because a1 is a constant and cannot be reassigned
 
 // Primitive Data Types
+// Null, Undefined, Number, String, Boolean, Symbol
 let x = "Shazib ";
 let y = 22;
 let z = 22.5;
