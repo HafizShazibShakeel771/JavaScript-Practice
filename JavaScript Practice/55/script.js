@@ -32,6 +32,7 @@ console.log(a);
 
 // Primitive Data Types
 // Null, Undefined, Number, String, Boolean, Symbol
+
 let x = "Shazib ";
 let y = 22;
 let z = 22.5;
@@ -51,5 +52,4 @@ let o = {
 };
 console.log(o);
 o.salary = 50000; // Adding a new property to the object
-console.log(o); 
-
+console.log(o);
